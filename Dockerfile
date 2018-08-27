@@ -38,6 +38,7 @@ RUN curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.
 RUN sh ./installer.sh ~/.cache/dein
 RUN rm installer.sh
 
+# workディレクトリへzshでattach
 RUN mkdir /home/tamash/work
 WORKDIR /home/tamash/work
 ENTRYPOINT [ "/bin/zsh" ]
