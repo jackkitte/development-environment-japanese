@@ -6,7 +6,6 @@ RUN apt-get update && apt-get -y upgrade
 RUN apt-get -y install build-essential
 RUN apt-get -y install git vim curl wget zsh sudo lsof
 RUN apt-get -y install language-pack-ja-base language-pack-ja
-RUN apt-get -y install mecab libmecab-dev mecab-ipadic mecab-ipadic-utf8
 RUN apt-get -y install zlib1g-dev \
 libssl-dev \
 libreadline-dev \
